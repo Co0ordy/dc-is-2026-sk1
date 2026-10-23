@@ -51,8 +51,8 @@ while (again.ToLower() == "a")
     Console.WriteLine("====================================");
     Console.WriteLine();
 
-    
 
+    
     // 5. Výpis řady
     Console.WriteLine("Výpis číselné řady:");
     if (first <= last)

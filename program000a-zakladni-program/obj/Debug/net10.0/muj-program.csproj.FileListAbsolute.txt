@@ -1,0 +1,15 @@
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\bin\Debug\net10.0\muj-program.exe
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\bin\Debug\net10.0\muj-program.deps.json
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\bin\Debug\net10.0\muj-program.runtimeconfig.json
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\bin\Debug\net10.0\muj-program.dll
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\bin\Debug\net10.0\muj-program.pdb
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\obj\Debug\net10.0\muj-program.GeneratedMSBuildEditorConfig.editorconfig
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\obj\Debug\net10.0\muj-program.AssemblyInfoInputs.cache
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\obj\Debug\net10.0\muj-program.AssemblyInfo.cs
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\obj\Debug\net10.0\muj-program.csproj.CoreCompileInputs.cache
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\obj\Debug\net10.0\muj-program.sourcelink.json
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\obj\Debug\net10.0\muj-program.dll
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\obj\Debug\net10.0\refint\muj-program.dll
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\obj\Debug\net10.0\muj-program.pdb
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\obj\Debug\net10.0\muj-program.genruntimeconfig.cache
+C:\aaa\dc-is-2026-sk1\IS-Programy\program000a-zakladni-program\obj\Debug\net10.0\ref\muj-program.dll
