@@ -33,11 +33,19 @@ while (again.ToLower() == "a")
     {
         number = -number;
     }
+    if (numbe < 0)
+    {
+        numbe = -numbe;
+    }
 
     // 4. Zvláštní případ pro nulu
     if (number == 0)
     {
         sum = 0;
+    }
+    if (numbe == 0)
+    {
+        krat = 0;
     }
     else
     {
