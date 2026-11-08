@@ -4,11 +4,11 @@ string again = "a";
 // Hlavní smyčka programu: běží znovu, pokud uživatel zadá 'a' nebo 'A'
 while (again.ToLower() == "a")
 {
-    Console.Clear();
+    //Console.Clear();
     Console.WriteLine("***********************************");
     Console.WriteLine("********* Ciferný součet **********");
     Console.WriteLine("***********************************");
-    Console.WriteLine("*********** Tomáš Žižka ***********");
+    Console.WriteLine("************* Cordy ***************");
     Console.WriteLine("***********************************");
     Console.WriteLine();
 
@@ -22,8 +22,11 @@ while (again.ToLower() == "a")
 
     // 2. Příprava pomocných proměnných pro výpočet
     int numberBackup = number; // Záloha původního čísla pro závěrečný výpis
+    int numbe = number;         //Deklarace numbe pro soucin
     int sum = 0;               // Neutrální prvek pro sčítání je 0
     int digit;                 // Proměnná pro uložení právě oddělené cifry
+    int krat = 1;
+    int digi;
 
     // 3. Ošetření záporných čísel (znaménko nemá vliv na cifry)
     if (number < 0)
@@ -61,7 +64,27 @@ while (again.ToLower() == "a")
     Console.WriteLine("====================================");
     Console.WriteLine();
 
-    // 7. Dotaz na opakování programu
+    // 7. Matematický rozklad čísla pomocí cyklu
+        while (numbe > 0)
+        {
+            digi = numbe % 10;            // Modulo 10 získá poslední číslici
+            krat = krat * digi;              // Vynasobení cifry k celkovému součtu
+
+            Console.WriteLine($"Získána cifra: {digi}");
+
+            numbe = numbe / 10;           // Celočíselné dělení 10 odstraní poslední číslici
+        }
+    
+
+    // 8. Výpis výsledků
+    Console.WriteLine();
+    Console.WriteLine("====================================");
+    Console.WriteLine($"Původní číslo:  {numberBackup}");
+    Console.WriteLine($"Ciferný součin: {krat}");
+    Console.WriteLine("====================================");
+    Console.WriteLine();
+
+    // 9. Dotaz na opakování programu
     Console.Write("Pro opakování programu stiskněte 'a' a potvrďte klávesou Enter: ");
     again = Console.ReadLine() ?? "";
 }
